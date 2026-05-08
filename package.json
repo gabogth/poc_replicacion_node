@@ -1,0 +1,11 @@
+{
+  "name": "poc_replicacion_node",
+  "version": "1.0.0",
+  "description": "Panel simple para listar conectores, tópicos y consumer groups de Kafka",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  }
+}
